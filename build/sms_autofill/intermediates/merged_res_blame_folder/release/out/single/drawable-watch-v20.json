@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Shivam\\Eatoz Collection\\Food on the way user (1)\\Food on the way user\\build\\sms_autofill\\intermediates\\res\\merged\\release\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\Indian\\.gradle\\caches\\transforms-3\\f3f4d1ca09db98b5f073671e66a051de\\transformed\\jetified-play-services-auth-19.2.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "D:\\Shivam\\Eatoz Collection\\Food on the way user (1)\\Food on the way user\\build\\sms_autofill\\intermediates\\res\\merged\\release\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\Indian\\.gradle\\caches\\transforms-3\\f3f4d1ca09db98b5f073671e66a051de\\transformed\\jetified-play-services-auth-19.2.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "D:\\Shivam\\Eatoz Collection\\Food on the way user (1)\\Food on the way user\\build\\sms_autofill\\intermediates\\res\\merged\\release\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\Indian\\.gradle\\caches\\transforms-3\\f3f4d1ca09db98b5f073671e66a051de\\transformed\\jetified-play-services-auth-19.2.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
+    }
+]

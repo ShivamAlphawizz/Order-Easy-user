@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Shivam\\Eatoz Collection\\Food on the way user (1)\\Food on the way user\\build\\share\\intermediates\\res\\merged\\release\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\Indian\\.gradle\\caches\\transforms-3\\ef2b9265bbb0c46a83acc00f7072749e\\transformed\\core-1.6.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "D:\\Shivam\\Eatoz Collection\\Food on the way user (1)\\Food on the way user\\build\\share\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Indian\\.gradle\\caches\\transforms-3\\ef2b9265bbb0c46a83acc00f7072749e\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\Shivam\\Eatoz Collection\\Food on the way user (1)\\Food on the way user\\build\\share\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Indian\\.gradle\\caches\\transforms-3\\ef2b9265bbb0c46a83acc00f7072749e\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Shivam\\Eatoz Collection\\Food on the way user (1)\\Food on the way user\\build\\share\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Indian\\.gradle\\caches\\transforms-3\\ef2b9265bbb0c46a83acc00f7072749e\\transformed\\core-1.6.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Shivam\\Eatoz Collection\\Food on the way user (1)\\Food on the way user\\build\\share\\intermediates\\res\\merged\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Indian\\.gradle\\caches\\transforms-3\\ef2b9265bbb0c46a83acc00f7072749e\\transformed\\core-1.6.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Shivam\\Eatoz Collection\\Food on the way user (1)\\Food on the way user\\build\\share\\intermediates\\res\\merged\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Indian\\.gradle\\caches\\transforms-3\\ef2b9265bbb0c46a83acc00f7072749e\\transformed\\core-1.6.0\\res\\layout\\notification_action_tombstone.xml"
+    }
+]

@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Shivam\\Eatoz Collection\\Food on the way user (1)\\Food on the way user\\build\\stripe_payment\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-id\\values-id.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Indian\\.gradle\\caches\\transforms-3\\7306e4df034210c41c5404f7f72e5d97\\transformed\\jetified-play-services-wallet-18.1.3\\res\\values-id\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "73",
+                        "endOffsets": "275"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "77",
+                        "endOffsets": "128"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Shivam\\Eatoz Collection\\Food on the way user (1)\\Food on the way user\\build\\stripe_payment\\intermediates\\res\\merged\\release\\values-id\\values-id.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Indian\\.gradle\\caches\\transforms-3\\7306e4df034210c41c5404f7f72e5d97\\transformed\\jetified-play-services-wallet-18.1.3\\res\\values-id\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "73",
+                        "endOffsets": "275"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "77",
+                        "endOffsets": "128"
+                    }
+                }
+            ]
+        }
+    ]
+}

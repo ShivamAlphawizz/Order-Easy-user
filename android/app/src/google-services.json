@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "452930917671",
+    "project_id": "eatoz-5d6b5",
+    "storage_bucket": "eatoz-5d6b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452930917671:android:ac02f890010aecd9efc502",
+        "android_client_info": {
+          "package_name": "com.eatozfood_user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452930917671-5h15a9j7pck750rf0ak5au7l2oan2u7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7sQ_7-ykpyMJOL-dHXUIjEYjKEIiAC08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452930917671-5h15a9j7pck750rf0ak5au7l2oan2u7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

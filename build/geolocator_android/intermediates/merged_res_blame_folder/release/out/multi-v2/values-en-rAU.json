@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Shivam\\Eatoz Collection\\Food on the way user (1)\\Food on the way user\\build\\geolocator_android\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Indian\\.gradle\\caches\\transforms-3\\278428a53c37a8adf6506cf8fc4840c1\\transformed\\core-1.8.0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Shivam\\Eatoz Collection\\Food on the way user (1)\\Food on the way user\\build\\geolocator_android\\intermediates\\res\\merged\\release\\values-en-rAU\\values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Indian\\.gradle\\caches\\transforms-3\\278428a53c37a8adf6506cf8fc4840c1\\transformed\\core-1.8.0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

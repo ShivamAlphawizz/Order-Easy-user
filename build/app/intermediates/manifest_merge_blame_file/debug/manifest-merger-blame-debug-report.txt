@@ -1,0 +1,1240 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.eatozfood_user"
+4    android:versionCode="11"
+5    android:versionName="3.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:4:5-67
+14-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:5:5-81
+15-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:5:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:6:5-79
+16-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:6:22-76
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:7:5-80
+17-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:7:22-77
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:8:5-81
+18-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:8:22-78
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:9:5-71
+19-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:9:22-68
+20
+21    <queries>
+21-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:11:5-15:15
+22        <intent>
+22-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:12:9-14:18
+23            <action android:name="android.speech.RecognitionService" />
+23-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:13:13-72
+23-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:13:21-69
+24        </intent>
+25        <intent>
+25-->[:file_picker] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-14:18
+26            <action android:name="android.intent.action.GET_CONTENT" />
+26-->[:file_picker] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-72
+26-->[:file_picker] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:21-69
+27
+28            <data android:mimeType="*/*" />
+28-->[:file_picker] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-44
+28-->[:file_picker] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-41
+29        </intent>
+30        <intent>
+30-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-10:18
+31            <action android:name="android.support.customtabs.action.CustomTabsService" />
+31-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-90
+31-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:9:21-87
+32        </intent>
+33        <intent>
+33-->[:flutter_downloader] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_downloader\intermediates\library_manifest\debug\AndroidManifest.xml:9:9-11:18
+34            <action android:name="android.intent.action.VIEW" />
+34-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:27:17-69
+34-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:27:25-66
+35        </intent> <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+36        <package android:name="com.android.chrome" />
+36-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:13:9-54
+36-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:13:18-51
+37
+38        <intent>
+38-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:11:9-17:18
+39            <action android:name="android.intent.action.VIEW" />
+39-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:27:17-69
+39-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:27:25-66
+40
+41            <data
+41-->[:file_picker] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-44
+42                android:mimeType="*/*"
+42-->[:file_picker] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-41
+43                android:scheme="*" />
+44        </intent>
+45        <intent>
+45-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:18:9-27:18
+46            <action android:name="android.intent.action.VIEW" />
+46-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:27:17-69
+46-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:27:25-66
+47
+48            <category android:name="android.intent.category.BROWSABLE" />
+48-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:30:17-78
+48-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:30:27-75
+49
+50            <data
+50-->[:file_picker] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-44
+51                android:host="pay"
+52                android:mimeType="*/*"
+52-->[:file_picker] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-41
+53                android:scheme="upi" />
+54        </intent>
+55        <intent>
+55-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:28:9-30:18
+56            <action android:name="android.intent.action.MAIN" />
+56-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:49:17-69
+56-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:49:25-66
+57        </intent>
+58        <intent>
+58-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:31:9-35:18
+59            <action android:name="android.intent.action.SEND" />
+59-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:32:13-65
+59-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:32:21-62
+60
+61            <data android:mimeType="*/*" />
+61-->[:file_picker] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-44
+61-->[:file_picker] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-41
+62        </intent>
+63        <intent>
+63-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:36:9-38:18
+64            <action android:name="rzp.device_token.share" />
+64-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:37:13-61
+64-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:37:21-58
+65        </intent> <!-- Specific apps you interact with, eg: -->
+66        <package android:name="com.paytm.pgsdk.TransactionManager.PAYTM_APP_PACKAGE" /> <!-- Needs to be explicitly declared on Android R+ -->
+66-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Indian\.gradle\caches\transforms-3\4039a40578aea876021ed97aa36754b1\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:12:9-88
+66-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Indian\.gradle\caches\transforms-3\4039a40578aea876021ed97aa36754b1\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:12:18-85
+67        <package android:name="com.google.android.apps.maps" />
+67-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Indian\.gradle\caches\transforms-3\920b2e7c6819174ad9c308e7f7c0e1f0\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+67-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Indian\.gradle\caches\transforms-3\920b2e7c6819174ad9c308e7f7c0e1f0\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+68    </queries>
+69
+70    <uses-permission android:name="android.permission.WAKE_LOCK" />
+70-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-68
+70-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-65
+71    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+71-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-79
+71-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-76
+72    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+72-->[:geolocator_android] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-77
+72-->[:geolocator_android] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-74
+73    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+73-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+73-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
+74    <uses-permission android:name="android.permission.VIBRATE" />
+74-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-66
+74-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-63
+75    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+75-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-81
+75-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-78
+76    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+76-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-79
+76-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-76
+77    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+77-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-77
+77-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-74
+78    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+78-->[:speech_to_text] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\speech_to_text\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-76
+78-->[:speech_to_text] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\speech_to_text\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-73
+79    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+79-->[:open_file] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-83
+79-->[:open_file] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-80
+80    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+80-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Indian\.gradle\caches\transforms-3\29db23e2e4f1113369cfbcc0373b7468\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:29:5-82
+80-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Indian\.gradle\caches\transforms-3\29db23e2e4f1113369cfbcc0373b7468\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:29:22-79
+81    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+81-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Indian\.gradle\caches\transforms-3\bf3cd12334e45f0cf56262e53f254d94\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:10:5-75
+81-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Indian\.gradle\caches\transforms-3\bf3cd12334e45f0cf56262e53f254d94\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:10:22-72
+82
+83    <uses-feature
+83-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Indian\.gradle\caches\transforms-3\920b2e7c6819174ad9c308e7f7c0e1f0\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+84        android:glEsVersion="0x00020000"
+84-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Indian\.gradle\caches\transforms-3\920b2e7c6819174ad9c308e7f7c0e1f0\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+85        android:required="true" />
+85-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Indian\.gradle\caches\transforms-3\920b2e7c6819174ad9c308e7f7c0e1f0\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+86
+87    <application
+87-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:16:5-63:19
+88        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+88-->[androidx.core:core:1.8.0] C:\Users\Indian\.gradle\caches\transforms-3\278428a53c37a8adf6506cf8fc4840c1\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+89        android:debuggable="true"
+90        android:exported="true"
+90-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:20:9-32
+91        android:icon="@mipmap/ic_launcher"
+91-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:17:9-43
+92        android:label="Eatoz Food"
+92-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:18:9-35
+93        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+93-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:11:18-74
+94        android:usesCleartextTraffic="true" >
+94-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:19:9-44
+95        <meta-data
+95-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:22:9-123
+96            android:name="com.google.android.geo.API_KEY"
+96-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:22:20-65
+97            android:value="AIzaSyBq52y-MtlJa6wtmzZ1XIz3LTbwBpaWXuU" />
+97-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:22:66-121
+98
+99        <activity
+99-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:23:9-56:20
+100            android:name="com.eatozfood_user.MainActivity"
+100-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:24:13-41
+101            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+101-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:25:13-163
+102            android:exported="true"
+102-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:29:13-36
+103            android:hardwareAccelerated="true"
+103-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:26:13-47
+104            android:launchMode="singleTop"
+104-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:27:13-43
+105            android:theme="@style/LaunchTheme"
+105-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:28:13-47
+106            android:windowSoftInputMode="adjustResize" >
+106-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:30:13-55
+107
+108            <!--
+109                 Specifies an Android theme to apply to this Activity as soon as
+110                 the Android process has started. This theme is visible to the user
+111                 while the Flutter UI initializes. After that, this theme continues
+112                 to determine the Window background behind the Flutter UI.
+113            -->
+114            <meta-data
+114-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:36:13-38:57
+115                android:name="io.flutter.embedding.android.NormalTheme"
+115-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:37:17-72
+116                android:resource="@style/NormalTheme" />
+116-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:38:17-54
+117            <!--
+118                 Displays an Android View that continues showing the launch screen
+119                 Drawable until Flutter paints its first frame, then this splash
+120                 screen fades out. A splash screen is useful to avoid any visual
+121                 gap between the end of Android's launch screen and the painting of
+122                 Flutter's first frame.
+123            -->
+124            <!--
+125                <meta-data
+126                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+127                android:resource="@drawable/launch_background" />
+128            -->
+129
+130            <intent-filter>
+130-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:48:13-51:29
+131                <action android:name="android.intent.action.MAIN" />
+131-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:49:17-69
+131-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:49:25-66
+132
+133                <category android:name="android.intent.category.LAUNCHER" />
+133-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:50:17-77
+133-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:50:27-74
+134            </intent-filter>
+135            <intent-filter>
+135-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:52:13-55:29
+136                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+136-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:53:17-69
+136-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:53:25-66
+137
+138                <category android:name="android.intent.category.DEFAULT" />
+138-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:54:17-76
+138-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:54:27-73
+139            </intent-filter>
+140        </activity>
+141        <activity
+141-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:57:9-117
+142            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+142-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:57:19-91
+143            android:exported="true"
+143-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:57:92-115
+144            android:launchMode="singleTop"
+144-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:40:13-43
+145            android:theme="@style/StripeTransparentTheme" >
+145-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:41:13-58
+146            <intent-filter>
+146-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:42:13-53:29
+147                <action android:name="android.intent.action.VIEW" />
+147-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:27:17-69
+147-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:27:25-66
+148
+149                <category android:name="android.intent.category.DEFAULT" />
+149-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:54:17-76
+149-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:54:27-73
+150                <category android:name="android.intent.category.BROWSABLE" />
+150-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:30:17-78
+150-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:30:27-75
+151
+152                <!-- Must match `DefaultReturnUrl#value`. -->
+153                <data
+153-->[:file_picker] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-44
+154                    android:host="payment_return_url"
+155                    android:path="/com.eatozfood_user"
+156                    android:scheme="stripesdk" />
+157            </intent-filter>
+158        </activity>
+159        <!--
+160             Don't delete the meta-data below.
+161             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+162        -->
+163        <meta-data
+163-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:60:9-62:33
+164            android:name="flutterEmbedding"
+164-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:61:13-44
+165            android:value="2" />
+165-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:62:13-30
+166
+167        <service
+167-->[:firebase_database] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+168            android:name="com.google.firebase.components.ComponentDiscoveryService"
+168-->[:firebase_database] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+169            android:directBootAware="true"
+169-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Indian\.gradle\caches\transforms-3\904e9810aae51868c8e1f6e5ab9131a7\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:35:13-43
+170            android:exported="false" >
+170-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Indian\.gradle\caches\transforms-3\29db23e2e4f1113369cfbcc0373b7468\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:55:13-37
+171            <meta-data
+171-->[:firebase_database] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+172                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+172-->[:firebase_database] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-127
+173                android:value="com.google.firebase.components.ComponentRegistrar" />
+173-->[:firebase_database] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+174            <meta-data
+174-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-36:85
+175                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+175-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:35:17-128
+176                android:value="com.google.firebase.components.ComponentRegistrar" />
+176-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:36:17-82
+177            <meta-data
+177-->[:firebase_dynamic_links] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_dynamic_links\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-13:85
+178                android:name="com.google.firebase.components:io.flutter.plugins.firebasedynamiclinks.FlutterFirebaseAppRegistrar"
+178-->[:firebase_dynamic_links] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_dynamic_links\intermediates\library_manifest\debug\AndroidManifest.xml:12:17-130
+179                android:value="com.google.firebase.components.ComponentRegistrar" />
+179-->[:firebase_dynamic_links] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_dynamic_links\intermediates\library_manifest\debug\AndroidManifest.xml:13:17-82
+180            <meta-data
+180-->[:firebase_auth] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+181                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+181-->[:firebase_auth] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+182                android:value="com.google.firebase.components.ComponentRegistrar" />
+182-->[:firebase_auth] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+183            <meta-data
+183-->[:firebase_core] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+184                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+184-->[:firebase_core] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+185                android:value="com.google.firebase.components.ComponentRegistrar" />
+185-->[:firebase_core] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+186            <meta-data
+186-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Indian\.gradle\caches\transforms-3\29db23e2e4f1113369cfbcc0373b7468\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:56:13-58:85
+187                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+187-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Indian\.gradle\caches\transforms-3\29db23e2e4f1113369cfbcc0373b7468\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:57:17-119
+188                android:value="com.google.firebase.components.ComponentRegistrar" />
+188-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Indian\.gradle\caches\transforms-3\29db23e2e4f1113369cfbcc0373b7468\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:58:17-82
+189            <meta-data
+189-->[com.google.firebase:firebase-datatransport:18.1.6] C:\Users\Indian\.gradle\caches\transforms-3\9780d16a66ce0477fb70ccd85e5689bd\transformed\jetified-firebase-datatransport-18.1.6\AndroidManifest.xml:28:13-30:85
+190                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+190-->[com.google.firebase:firebase-datatransport:18.1.6] C:\Users\Indian\.gradle\caches\transforms-3\9780d16a66ce0477fb70ccd85e5689bd\transformed\jetified-firebase-datatransport-18.1.6\AndroidManifest.xml:29:17-115
+191                android:value="com.google.firebase.components.ComponentRegistrar" />
+191-->[com.google.firebase:firebase-datatransport:18.1.6] C:\Users\Indian\.gradle\caches\transforms-3\9780d16a66ce0477fb70ccd85e5689bd\transformed\jetified-firebase-datatransport-18.1.6\AndroidManifest.xml:30:17-82
+192            <meta-data
+192-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\Indian\.gradle\caches\transforms-3\79ec31f3d2bd20ceffc9c201e099f8ca\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:67:13-69:85
+193                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+193-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\Indian\.gradle\caches\transforms-3\79ec31f3d2bd20ceffc9c201e099f8ca\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:68:17-109
+194                android:value="com.google.firebase.components.ComponentRegistrar" />
+194-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\Indian\.gradle\caches\transforms-3\79ec31f3d2bd20ceffc9c201e099f8ca\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:69:17-82
+195            <meta-data
+195-->[com.google.firebase:firebase-dynamic-links:21.0.2] C:\Users\Indian\.gradle\caches\transforms-3\3a5f02ff788cc1d4b3c93f5128715ef5\transformed\jetified-firebase-dynamic-links-21.0.2\AndroidManifest.xml:27:13-29:85
+196                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+196-->[com.google.firebase:firebase-dynamic-links:21.0.2] C:\Users\Indian\.gradle\caches\transforms-3\3a5f02ff788cc1d4b3c93f5128715ef5\transformed\jetified-firebase-dynamic-links-21.0.2\AndroidManifest.xml:28:17-133
+197                android:value="com.google.firebase.components.ComponentRegistrar" />
+197-->[com.google.firebase:firebase-dynamic-links:21.0.2] C:\Users\Indian\.gradle\caches\transforms-3\3a5f02ff788cc1d4b3c93f5128715ef5\transformed\jetified-firebase-dynamic-links-21.0.2\AndroidManifest.xml:29:17-82
+198            <meta-data
+198-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Indian\.gradle\caches\transforms-3\85cbe4ef95515ee13cdc28f24b5953a1\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:32:13-34:85
+199                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+199-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Indian\.gradle\caches\transforms-3\85cbe4ef95515ee13cdc28f24b5953a1\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:33:17-109
+200                android:value="com.google.firebase.components.ComponentRegistrar" />
+200-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Indian\.gradle\caches\transforms-3\85cbe4ef95515ee13cdc28f24b5953a1\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:34:17-82
+201            <meta-data
+201-->[com.google.firebase:firebase-installations:17.0.3] C:\Users\Indian\.gradle\caches\transforms-3\93cce3e61f1d5a853290d1f07dd0c78f\transformed\jetified-firebase-installations-17.0.3\AndroidManifest.xml:18:13-20:85
+202                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+202-->[com.google.firebase:firebase-installations:17.0.3] C:\Users\Indian\.gradle\caches\transforms-3\93cce3e61f1d5a853290d1f07dd0c78f\transformed\jetified-firebase-installations-17.0.3\AndroidManifest.xml:19:17-127
+203                android:value="com.google.firebase.components.ComponentRegistrar" />
+203-->[com.google.firebase:firebase-installations:17.0.3] C:\Users\Indian\.gradle\caches\transforms-3\93cce3e61f1d5a853290d1f07dd0c78f\transformed\jetified-firebase-installations-17.0.3\AndroidManifest.xml:20:17-82
+204        </service>
+205        <service
+205-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-15:72
+206            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+206-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-107
+207            android:exported="false"
+207-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+208            android:permission="android.permission.BIND_JOB_SERVICE" />
+208-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-69
+209        <service
+209-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-22:19
+210            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+210-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-97
+211            android:exported="false" >
+211-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+212            <intent-filter>
+212-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-21:29
+213                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+213-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-78
+213-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-75
+214            </intent-filter>
+215        </service>
+216
+217        <receiver
+217-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-31:20
+218            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+218-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-98
+219            android:exported="true"
+219-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-36
+220            android:permission="com.google.android.c2dm.permission.SEND" >
+220-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-73
+221            <intent-filter>
+221-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-30:29
+222                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+222-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-81
+222-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:25-78
+223            </intent-filter>
+224        </receiver>
+225
+226        <provider
+226-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:39:9-43:38
+227            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+227-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-102
+228            android:authorities="com.eatozfood_user.flutterfirebasemessaginginitprovider"
+228-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-88
+229            android:exported="false"
+229-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-37
+230            android:initOrder="99" />
+230-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-35
+231
+232        <service
+232-->[:geolocator_android] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-14:56
+233            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+233-->[:geolocator_android] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-77
+234            android:enabled="true"
+234-->[:geolocator_android] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-35
+235            android:exported="false"
+235-->[:geolocator_android] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+236            android:foregroundServiceType="location" />
+236-->[:geolocator_android] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-53
+237
+238        <receiver
+238-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-16:40
+239            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+239-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-97
+240            android:exported="false" />
+240-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-37
+241        <receiver
+241-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-26:20
+242            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+242-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-101
+243            android:exported="false" >
+243-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-37
+244            <intent-filter>
+244-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-25:29
+245                <action android:name="android.intent.action.BOOT_COMPLETED" />
+245-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-79
+245-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:25-76
+246                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+246-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-84
+246-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:25-81
+247                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+247-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:17-82
+247-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:25-79
+248                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+248-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:24:17-82
+248-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:24:25-79
+249            </intent-filter>
+250        </receiver>
+251
+252        <activity
+252-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-18:47
+253            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+253-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-104
+254            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+254-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-137
+255            android:exported="false"
+255-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-37
+256            android:theme="@style/AppTheme" />
+256-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-44
+257        <activity
+257-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-22:55
+258            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+258-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-112
+259            android:exported="false"
+259-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-37
+260            android:theme="@style/ThemeTransparent" />
+260-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-52
+261        <activity
+261-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-26:55
+262            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+262-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-106
+263            android:exported="false"
+263-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-37
+264            android:theme="@style/ThemeTransparent" />
+264-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-52
+265        <activity
+265-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-31:55
+266            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+266-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-126
+267            android:exported="false"
+267-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-37
+268            android:launchMode="singleInstance"
+268-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-48
+269            android:theme="@style/ThemeTransparent" />
+269-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-52
+270        <activity
+270-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:32:9-36:55
+271            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+271-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-120
+272            android:exported="false"
+272-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-37
+273            android:launchMode="singleInstance"
+273-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-48
+274            android:theme="@style/ThemeTransparent" />
+274-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-52
+275
+276        <receiver
+276-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:38:9-41:40
+277            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+277-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-111
+278            android:enabled="true"
+278-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-35
+279            android:exported="false" />
+279-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-37
+280
+281        <meta-data
+281-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:43:9-45:36
+282            android:name="io.flutter.embedded_views_preview"
+282-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-61
+283            android:value="true" />
+283-->[:flutter_inappwebview] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-33
+284
+285        <provider
+285-->[:share] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+286            android:name="io.flutter.plugins.share.ShareFileProvider"
+286-->[:share] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-70
+287            android:authorities="com.eatozfood_user.flutter.share_provider"
+287-->[:share] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+288            android:exported="false"
+288-->[:share] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+289            android:grantUriPermissions="true" >
+289-->[:share] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+290            <meta-data
+290-->[:share] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:68
+291                android:name="android.support.FILE_PROVIDER_PATHS"
+291-->[:share] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+292                android:resource="@xml/flutter_share_file_paths" />
+292-->[:share] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-65
+293        </provider>
+294
+295        <meta-data
+295-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:36
+296            android:name="com.google.android.gms.wallet.api.enabled"
+296-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-69
+297            android:value="true" />
+297-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-33
+298
+299        <activity
+299-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-20:75
+300            android:name="com.gettipsi.stripe.OpenBrowserActivity"
+300-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-67
+301            android:exported="false"
+301-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+302            android:launchMode="singleTask"
+302-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-44
+303            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+303-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-72
+304        <activity
+304-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-34:20
+305            android:name="com.gettipsi.stripe.RedirectUriReceiver"
+305-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-67
+306            android:exported="true"
+306-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-36
+307            android:launchMode="singleTask"
+307-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-44
+308            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+308-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-83
+309            <intent-filter>
+309-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-33:29
+310                <action android:name="android.intent.action.VIEW" />
+310-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:27:17-69
+310-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:27:25-66
+311
+312                <category android:name="android.intent.category.DEFAULT" />
+312-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:54:17-76
+312-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:54:27-73
+313                <category android:name="android.intent.category.BROWSABLE" />
+313-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:30:17-78
+313-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:30:27-75
+314
+315                <data android:scheme="example" />
+315-->[:file_picker] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-44
+316            </intent-filter>
+317        </activity>
+318        <activity
+318-->[:url_launcher_android] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+319            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+319-->[:url_launcher_android] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+320            android:exported="false"
+320-->[:url_launcher_android] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+321            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+321-->[:url_launcher_android] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+322
+323        <provider
+323-->[:open_file] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-21:20
+324            android:name="com.crazecoder.openfile.FileProvider"
+324-->[:open_file] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-64
+325            android:authorities="com.eatozfood_user.fileProvider.com.crazecoder.openfile"
+325-->[:open_file] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
+326            android:exported="false"
+326-->[:open_file] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+327            android:grantUriPermissions="true" >
+327-->[:open_file] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+328            <meta-data
+328-->[:share] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:68
+329                android:name="android.support.FILE_PROVIDER_PATHS"
+329-->[:share] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+330                android:resource="@xml/filepaths" />
+330-->[:share] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-65
+331        </provider>
+332
+333        <activity
+333-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:17:9-19:57
+334            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+334-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:18:13-76
+335            android:theme="@style/StripeDefaultTheme" />
+335-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:19:13-54
+336        <activity
+336-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:20:9-22:57
+337            android:name="com.stripe.android.view.PaymentMethodsActivity"
+337-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:21:13-74
+338            android:theme="@style/StripeDefaultTheme" />
+338-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:22:13-54
+339        <activity
+339-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:23:9-25:57
+340            android:name="com.stripe.android.view.PaymentFlowActivity"
+340-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:24:13-71
+341            android:theme="@style/StripeDefaultTheme" />
+341-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:25:13-54
+342        <activity
+342-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:26:9-29:58
+343            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+343-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:27:13-78
+344            android:theme="@style/StripeDefaultTheme"
+344-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:28:13-54
+345            android:windowSoftInputMode="adjustResize" />
+345-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:29:13-55
+346        <activity
+346-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:30:9-32:61
+347            android:name="com.stripe.android.view.PaymentRelayActivity"
+347-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:31:13-72
+348            android:theme="@style/StripeTransparentTheme" />
+348-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:32:13-58
+349        <activity
+349-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:55:9-57:57
+350            android:name="com.stripe.android.view.Stripe3ds2CompletionActivity"
+350-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:56:13-80
+351            android:theme="@style/StripeDefaultTheme" />
+351-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:57:13-54
+352        <activity
+352-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:58:9-60:69
+353            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+353-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:59:13-80
+354            android:theme="@style/StripePaymentSheetDefaultTheme" />
+354-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:60:13-66
+355        <activity
+355-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:61:9-63:69
+356            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+356-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:62:13-82
+357            android:theme="@style/StripePaymentSheetDefaultTheme" />
+357-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:63:13-66
+358        <activity
+358-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:64:9-66:66
+359            android:name="com.stripe.android.googlepay.StripeGooglePayActivity"
+359-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:65:13-80
+360            android:theme="@style/StripeGooglePayDefaultTheme" />
+360-->[com.stripe:payments-core:16.10.0] C:\Users\Indian\.gradle\caches\transforms-3\b83bad2d7977058327f5ac298baa3bc5\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:66:13-63
+361        <activity
+361-->[com.stripe:stripe-3ds2-android:5.3.1] C:\Users\Indian\.gradle\caches\transforms-3\c122777c20ef6e5914897ec2bbb2751b\transformed\jetified-stripe-3ds2-android-5.3.1\AndroidManifest.xml:10:9-12:54
+362            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+362-->[com.stripe:stripe-3ds2-android:5.3.1] C:\Users\Indian\.gradle\caches\transforms-3\c122777c20ef6e5914897ec2bbb2751b\transformed\jetified-stripe-3ds2-android-5.3.1\AndroidManifest.xml:11:13-81
+363            android:theme="@style/Stripe3DS2Theme" />
+363-->[com.stripe:stripe-3ds2-android:5.3.1] C:\Users\Indian\.gradle\caches\transforms-3\c122777c20ef6e5914897ec2bbb2751b\transformed\jetified-stripe-3ds2-android-5.3.1\AndroidManifest.xml:12:13-51
+364        <activity
+364-->[com.stripe:stripe-3ds2-android:5.3.1] C:\Users\Indian\.gradle\caches\transforms-3\c122777c20ef6e5914897ec2bbb2751b\transformed\jetified-stripe-3ds2-android-5.3.1\AndroidManifest.xml:13:9-15:54
+365            android:name="com.stripe.android.stripe3ds2.views.ChallengeProgressActivity"
+365-->[com.stripe:stripe-3ds2-android:5.3.1] C:\Users\Indian\.gradle\caches\transforms-3\c122777c20ef6e5914897ec2bbb2751b\transformed\jetified-stripe-3ds2-android-5.3.1\AndroidManifest.xml:14:13-89
+366            android:theme="@style/Stripe3DS2Theme" />
+366-->[com.stripe:stripe-3ds2-android:5.3.1] C:\Users\Indian\.gradle\caches\transforms-3\c122777c20ef6e5914897ec2bbb2751b\transformed\jetified-stripe-3ds2-android-5.3.1\AndroidManifest.xml:15:13-51
+367
+368        <receiver
+368-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Indian\.gradle\caches\transforms-3\29db23e2e4f1113369cfbcc0373b7468\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:32:9-39:20
+369            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+369-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Indian\.gradle\caches\transforms-3\29db23e2e4f1113369cfbcc0373b7468\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:33:13-78
+370            android:exported="true"
+370-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Indian\.gradle\caches\transforms-3\29db23e2e4f1113369cfbcc0373b7468\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:34:13-36
+371            android:permission="com.google.android.c2dm.permission.SEND" >
+371-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Indian\.gradle\caches\transforms-3\29db23e2e4f1113369cfbcc0373b7468\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:35:13-73
+372            <intent-filter>
+372-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-30:29
+373                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+373-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-81
+373-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:25-78
+374            </intent-filter>
+375        </receiver>
+376        <!--
+377             FirebaseMessagingService performs security checks at runtime,
+378             but set to not exported to explicitly avoid allowing another app to call it.
+379        -->
+380        <service
+380-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Indian\.gradle\caches\transforms-3\29db23e2e4f1113369cfbcc0373b7468\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:45:9-52:19
+381            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+381-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Indian\.gradle\caches\transforms-3\29db23e2e4f1113369cfbcc0373b7468\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:46:13-82
+382            android:directBootAware="true"
+382-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Indian\.gradle\caches\transforms-3\29db23e2e4f1113369cfbcc0373b7468\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:47:13-43
+383            android:exported="false" >
+383-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Indian\.gradle\caches\transforms-3\29db23e2e4f1113369cfbcc0373b7468\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:48:13-37
+384            <intent-filter android:priority="-500" >
+384-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-21:29
+385                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+385-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-78
+385-->[:firebase_messaging] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-75
+386            </intent-filter>
+387        </service>
+388        <service
+388-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\Indian\.gradle\caches\transforms-3\94bbb6747b380e4d42246e1b17da342a\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:29:9-35:19
+389            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+389-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\Indian\.gradle\caches\transforms-3\94bbb6747b380e4d42246e1b17da342a\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:30:13-103
+390            android:exported="false" >
+390-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\Indian\.gradle\caches\transforms-3\94bbb6747b380e4d42246e1b17da342a\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:31:13-37
+391            <meta-data
+391-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\Indian\.gradle\caches\transforms-3\94bbb6747b380e4d42246e1b17da342a\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:32:13-34:39
+392                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+392-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\Indian\.gradle\caches\transforms-3\94bbb6747b380e4d42246e1b17da342a\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:33:17-94
+393                android:value="cct" />
+393-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\Indian\.gradle\caches\transforms-3\94bbb6747b380e4d42246e1b17da342a\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:34:17-36
+394        </service>
+395        <service
+395-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Indian\.gradle\caches\transforms-3\57d1c0c2edc569d2fc7225e8edf0b288\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:26:9-30:19
+396            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+396-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Indian\.gradle\caches\transforms-3\57d1c0c2edc569d2fc7225e8edf0b288\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:27:13-117
+397            android:exported="false"
+397-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Indian\.gradle\caches\transforms-3\57d1c0c2edc569d2fc7225e8edf0b288\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:28:13-37
+398            android:permission="android.permission.BIND_JOB_SERVICE" >
+398-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Indian\.gradle\caches\transforms-3\57d1c0c2edc569d2fc7225e8edf0b288\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:29:13-69
+399        </service>
+400
+401        <receiver
+401-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Indian\.gradle\caches\transforms-3\57d1c0c2edc569d2fc7225e8edf0b288\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:32:9-34:40
+402            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+402-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Indian\.gradle\caches\transforms-3\57d1c0c2edc569d2fc7225e8edf0b288\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:33:13-132
+403            android:exported="false" />
+403-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Indian\.gradle\caches\transforms-3\57d1c0c2edc569d2fc7225e8edf0b288\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:34:13-37
+404
+405        <activity
+405-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\Indian\.gradle\caches\transforms-3\79ec31f3d2bd20ceffc9c201e099f8ca\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:27:9-44:20
+406            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+406-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\Indian\.gradle\caches\transforms-3\79ec31f3d2bd20ceffc9c201e099f8ca\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:28:13-80
+407            android:excludeFromRecents="true"
+407-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\Indian\.gradle\caches\transforms-3\79ec31f3d2bd20ceffc9c201e099f8ca\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:29:13-46
+408            android:exported="true"
+408-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\Indian\.gradle\caches\transforms-3\79ec31f3d2bd20ceffc9c201e099f8ca\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:30:13-36
+409            android:launchMode="singleTask"
+409-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\Indian\.gradle\caches\transforms-3\79ec31f3d2bd20ceffc9c201e099f8ca\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:31:13-44
+410            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+410-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\Indian\.gradle\caches\transforms-3\79ec31f3d2bd20ceffc9c201e099f8ca\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:32:13-72
+411            <intent-filter>
+411-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\Indian\.gradle\caches\transforms-3\79ec31f3d2bd20ceffc9c201e099f8ca\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:33:13-43:29
+412                <action android:name="android.intent.action.VIEW" />
+412-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:27:17-69
+412-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:27:25-66
+413
+414                <category android:name="android.intent.category.DEFAULT" />
+414-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:54:17-76
+414-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:54:27-73
+415                <category android:name="android.intent.category.BROWSABLE" />
+415-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:30:17-78
+415-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:30:27-75
+416
+417                <data
+417-->[:file_picker] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-44
+418                    android:host="firebase.auth"
+419                    android:path="/"
+420                    android:scheme="genericidp" />
+421            </intent-filter>
+422        </activity>
+423        <activity
+423-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\Indian\.gradle\caches\transforms-3\79ec31f3d2bd20ceffc9c201e099f8ca\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:45:9-62:20
+424            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+424-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\Indian\.gradle\caches\transforms-3\79ec31f3d2bd20ceffc9c201e099f8ca\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:46:13-79
+425            android:excludeFromRecents="true"
+425-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\Indian\.gradle\caches\transforms-3\79ec31f3d2bd20ceffc9c201e099f8ca\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:47:13-46
+426            android:exported="true"
+426-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\Indian\.gradle\caches\transforms-3\79ec31f3d2bd20ceffc9c201e099f8ca\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:48:13-36
+427            android:launchMode="singleTask"
+427-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\Indian\.gradle\caches\transforms-3\79ec31f3d2bd20ceffc9c201e099f8ca\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:49:13-44
+428            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+428-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\Indian\.gradle\caches\transforms-3\79ec31f3d2bd20ceffc9c201e099f8ca\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:50:13-72
+429            <intent-filter>
+429-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\Indian\.gradle\caches\transforms-3\79ec31f3d2bd20ceffc9c201e099f8ca\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:51:13-61:29
+430                <action android:name="android.intent.action.VIEW" />
+430-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:27:17-69
+430-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:27:25-66
+431
+432                <category android:name="android.intent.category.DEFAULT" />
+432-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:54:17-76
+432-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:54:27-73
+433                <category android:name="android.intent.category.BROWSABLE" />
+433-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:30:17-78
+433-->[:stripe_payment] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:30:27-75
+434
+435                <data
+435-->[:file_picker] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-44
+436                    android:host="firebase.auth"
+437                    android:path="/"
+438                    android:scheme="recaptcha" />
+439            </intent-filter>
+440        </activity>
+441
+442        <provider
+442-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Indian\.gradle\caches\transforms-3\904e9810aae51868c8e1f6e5ab9131a7\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:26:9-31:39
+443            android:name="com.google.firebase.provider.FirebaseInitProvider"
+443-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Indian\.gradle\caches\transforms-3\904e9810aae51868c8e1f6e5ab9131a7\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:27:13-77
+444            android:authorities="com.eatozfood_user.firebaseinitprovider"
+444-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Indian\.gradle\caches\transforms-3\904e9810aae51868c8e1f6e5ab9131a7\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:28:13-72
+445            android:directBootAware="true"
+445-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Indian\.gradle\caches\transforms-3\904e9810aae51868c8e1f6e5ab9131a7\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:29:13-43
+446            android:exported="false"
+446-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Indian\.gradle\caches\transforms-3\904e9810aae51868c8e1f6e5ab9131a7\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:30:13-37
+447            android:initOrder="100" />
+447-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Indian\.gradle\caches\transforms-3\904e9810aae51868c8e1f6e5ab9131a7\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:31:13-36
+448
+449        <receiver
+449-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:42:9-49:20
+450            android:name="com.razorpay.RzpTokenReceiver"
+450-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:43:13-57
+451            android:exported="true" >
+451-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:44:13-36
+452            <intent-filter>
+452-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:46:13-48:29
+453                <action android:name="rzp.device_token.share" />
+453-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:37:13-61
+453-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:37:21-58
+454            </intent-filter>
+455        </receiver>
+456
+457        <activity
+457-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:51:9-59:20
+458            android:name="com.razorpay.CheckoutActivity"
+458-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:52:13-57
+459            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+459-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:53:13-83
+460            android:exported="true"
+460-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:54:13-36
+461            android:theme="@style/CheckoutTheme" >
+461-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:55:13-49
+462            <intent-filter>
+462-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:56:13-58:29
+463                <action android:name="android.intent.action.MAIN" />
+463-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:49:17-69
+463-->D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\android\app\src\main\AndroidManifest.xml:49:25-66
+464            </intent-filter>
+465        </activity>
+466
+467        <meta-data
+467-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:61:9-63:58
+468            android:name="com.razorpay.plugin.googlepay_all"
+468-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:62:13-61
+469            android:value="com.razorpay.RzpGpayMerged" />
+469-->[com.razorpay:checkout:1.6.30] C:\Users\Indian\.gradle\caches\transforms-3\d2deacbc6705ab2927a6ef90b1f14169\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:63:13-55
+470
+471        <activity
+471-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Indian\.gradle\caches\transforms-3\cc7b3be04339fc2216f02625bb3f4124\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:23:9-27:75
+472            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+472-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Indian\.gradle\caches\transforms-3\cc7b3be04339fc2216f02625bb3f4124\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:24:13-93
+473            android:excludeFromRecents="true"
+473-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Indian\.gradle\caches\transforms-3\cc7b3be04339fc2216f02625bb3f4124\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:25:13-46
+474            android:exported="false"
+474-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Indian\.gradle\caches\transforms-3\cc7b3be04339fc2216f02625bb3f4124\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:26:13-37
+475            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+475-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Indian\.gradle\caches\transforms-3\cc7b3be04339fc2216f02625bb3f4124\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:27:13-72
+476        <!--
+477            Service handling Google Sign-In user revocation. For apps that do not integrate with
+478            Google Sign-In, this service will never be started.
+479        -->
+480        <service
+480-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Indian\.gradle\caches\transforms-3\cc7b3be04339fc2216f02625bb3f4124\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:33:9-37:51
+481            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+481-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Indian\.gradle\caches\transforms-3\cc7b3be04339fc2216f02625bb3f4124\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:34:13-89
+482            android:exported="true"
+482-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Indian\.gradle\caches\transforms-3\cc7b3be04339fc2216f02625bb3f4124\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:35:13-36
+483            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+483-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Indian\.gradle\caches\transforms-3\cc7b3be04339fc2216f02625bb3f4124\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:36:13-107
+484            android:visibleToInstantApps="true" />
+484-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Indian\.gradle\caches\transforms-3\cc7b3be04339fc2216f02625bb3f4124\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:37:13-48
+485
+486        <activity
+486-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Indian\.gradle\caches\transforms-3\4039a40578aea876021ed97aa36754b1\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:23:9-26:66
+487            android:name="com.paytm.pgsdk.PaytmPGActivity"
+487-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Indian\.gradle\caches\transforms-3\4039a40578aea876021ed97aa36754b1\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:24:13-59
+488            android:screenOrientation="portrait"
+488-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Indian\.gradle\caches\transforms-3\4039a40578aea876021ed97aa36754b1\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:25:13-49
+489            android:theme="@style/Theme.AppCompat.NoActionBar" />
+489-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Indian\.gradle\caches\transforms-3\4039a40578aea876021ed97aa36754b1\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:26:13-63
+490        <activity
+490-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Indian\.gradle\caches\transforms-3\4039a40578aea876021ed97aa36754b1\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:27:9-29:63
+491            android:name="com.paytm.pgsdk.AioMatchUserActivity"
+491-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Indian\.gradle\caches\transforms-3\4039a40578aea876021ed97aa36754b1\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:28:13-64
+492            android:theme="@style/TransparentActivityTheme" />
+492-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Indian\.gradle\caches\transforms-3\4039a40578aea876021ed97aa36754b1\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:29:13-60
+493
+494        <service
+494-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Indian\.gradle\caches\transforms-3\4039a40578aea876021ed97aa36754b1\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:31:9-33:40
+495            android:name="com.paytm.pgsdk.IntentServicePostNotification"
+495-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Indian\.gradle\caches\transforms-3\4039a40578aea876021ed97aa36754b1\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:32:13-73
+496            android:exported="false" />
+496-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Indian\.gradle\caches\transforms-3\4039a40578aea876021ed97aa36754b1\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:33:13-37
+497        <service
+497-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Indian\.gradle\caches\transforms-3\4039a40578aea876021ed97aa36754b1\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:34:9-36:40
+498            android:name="com.paytm.pgsdk.IntentServicePreNotification"
+498-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Indian\.gradle\caches\transforms-3\4039a40578aea876021ed97aa36754b1\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:35:13-72
+499            android:exported="false" />
+499-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Indian\.gradle\caches\transforms-3\4039a40578aea876021ed97aa36754b1\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:36:13-37
+500        <service
+500-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Indian\.gradle\caches\transforms-3\bf3cd12334e45f0cf56262e53f254d94\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:14:9-17:72
+501            android:name="easypay.appinvoke.utils.EasyPayConfigDownloader"
+501-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Indian\.gradle\caches\transforms-3\bf3cd12334e45f0cf56262e53f254d94\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:15:13-75
+502            android:exported="false"
+502-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Indian\.gradle\caches\transforms-3\bf3cd12334e45f0cf56262e53f254d94\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:16:13-37
+503            android:permission="android.permission.BIND_JOB_SERVICE" />
+503-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Indian\.gradle\caches\transforms-3\bf3cd12334e45f0cf56262e53f254d94\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:17:13-69
+504        <service
+504-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Indian\.gradle\caches\transforms-3\bf3cd12334e45f0cf56262e53f254d94\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:18:9-22:72
+505            android:name="easypay.appinvoke.utils.AnalyticsService"
+505-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Indian\.gradle\caches\transforms-3\bf3cd12334e45f0cf56262e53f254d94\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:19:13-68
+506            android:enabled="true"
+506-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Indian\.gradle\caches\transforms-3\bf3cd12334e45f0cf56262e53f254d94\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:20:13-35
+507            android:exported="false"
+507-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Indian\.gradle\caches\transforms-3\bf3cd12334e45f0cf56262e53f254d94\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:21:13-37
+508            android:permission="android.permission.BIND_JOB_SERVICE" />
+508-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Indian\.gradle\caches\transforms-3\bf3cd12334e45f0cf56262e53f254d94\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:22:13-69
+509
+510        <activity android:name="easypay.appinvoke.AnalyticsManagerInfoDisplayActivity" />
+510-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Indian\.gradle\caches\transforms-3\bf3cd12334e45f0cf56262e53f254d94\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:24:9-90
+510-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Indian\.gradle\caches\transforms-3\bf3cd12334e45f0cf56262e53f254d94\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:24:19-87
+511
+512        <provider
+512-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+513            android:name="androidx.startup.InitializationProvider"
+513-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+514            android:authorities="com.eatozfood_user.androidx-startup"
+514-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+515            android:exported="false" >
+515-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+516            <meta-data
+516-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+517                android:name="androidx.work.WorkManagerInitializer"
+517-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+518                android:value="androidx.startup" />
+518-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+519            <meta-data
+519-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Indian\.gradle\caches\transforms-3\2659309e1d3a8e21b6116a0edb34a1cd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+520                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+520-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Indian\.gradle\caches\transforms-3\2659309e1d3a8e21b6116a0edb34a1cd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+521                android:value="androidx.startup" />
+521-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Indian\.gradle\caches\transforms-3\2659309e1d3a8e21b6116a0edb34a1cd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+522            <meta-data
+522-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Indian\.gradle\caches\transforms-3\0ca48d95c061d66efa527f6a33de0509\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+523                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+523-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Indian\.gradle\caches\transforms-3\0ca48d95c061d66efa527f6a33de0509\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+524                android:value="androidx.startup" />
+524-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Indian\.gradle\caches\transforms-3\0ca48d95c061d66efa527f6a33de0509\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+525        </provider>
+526
+527        <service
+527-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+528            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+528-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+529            android:directBootAware="false"
+529-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+530            android:enabled="@bool/enable_system_alarm_service_default"
+530-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+531            android:exported="false" />
+531-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+532        <service
+532-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+533            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+533-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+534            android:directBootAware="false"
+534-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+535            android:enabled="@bool/enable_system_job_service_default"
+535-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+536            android:exported="true"
+536-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+537            android:permission="android.permission.BIND_JOB_SERVICE" />
+537-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+538        <service
+538-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+539            android:name="androidx.work.impl.foreground.SystemForegroundService"
+539-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+540            android:directBootAware="false"
+540-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+541            android:enabled="@bool/enable_system_foreground_service_default"
+541-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+542            android:exported="false" />
+542-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+543
+544        <receiver
+544-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+545            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+545-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+546            android:directBootAware="false"
+546-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+547            android:enabled="true"
+547-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+548            android:exported="false" />
+548-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+549        <receiver
+549-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+550            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+550-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+551            android:directBootAware="false"
+551-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+552            android:enabled="false"
+552-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+553            android:exported="false" >
+553-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+554            <intent-filter>
+554-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+555                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+555-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+555-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+556                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+556-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+556-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+557            </intent-filter>
+558        </receiver>
+559        <receiver
+559-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+560            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+560-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+561            android:directBootAware="false"
+561-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+562            android:enabled="false"
+562-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+563            android:exported="false" >
+563-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+564            <intent-filter>
+564-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+565                <action android:name="android.intent.action.BATTERY_OKAY" />
+565-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+565-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+566                <action android:name="android.intent.action.BATTERY_LOW" />
+566-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+566-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+567            </intent-filter>
+568        </receiver>
+569        <receiver
+569-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+570            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+570-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+571            android:directBootAware="false"
+571-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+572            android:enabled="false"
+572-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+573            android:exported="false" >
+573-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+574            <intent-filter>
+574-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+575                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+575-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+575-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+576                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+576-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+576-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+577            </intent-filter>
+578        </receiver>
+579        <receiver
+579-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+580            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+580-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+581            android:directBootAware="false"
+581-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+582            android:enabled="false"
+582-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+583            android:exported="false" >
+583-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+584            <intent-filter>
+584-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+585                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+585-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+585-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+586            </intent-filter>
+587        </receiver>
+588        <receiver
+588-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+589            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+589-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+590            android:directBootAware="false"
+590-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+591            android:enabled="false"
+591-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+592            android:exported="false" >
+592-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+593            <intent-filter>
+593-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+594                <action android:name="android.intent.action.BOOT_COMPLETED" />
+594-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-79
+594-->[:flutter_local_notifications] D:\Shivam\Eatoz Collection\Food on the way user (1)\Food on the way user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:25-76
+595                <action android:name="android.intent.action.TIME_SET" />
+595-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+595-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+596                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+596-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+596-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+597            </intent-filter>
+598        </receiver>
+599        <receiver
+599-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+600            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+600-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+601            android:directBootAware="false"
+601-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+602            android:enabled="@bool/enable_system_alarm_service_default"
+602-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+603            android:exported="false" >
+603-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+604            <intent-filter>
+604-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+605                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+605-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+605-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+606            </intent-filter>
+607        </receiver>
+608        <receiver
+608-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+609            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+609-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+610            android:directBootAware="false"
+610-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+611            android:enabled="true"
+611-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+612            android:exported="true"
+612-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+613            android:permission="android.permission.DUMP" >
+613-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+614            <intent-filter>
+614-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+615                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+615-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+615-->[androidx.work:work-runtime:2.7.1] C:\Users\Indian\.gradle\caches\transforms-3\839760c7855a0d8bdb176464b74fa573\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+616            </intent-filter>
+617        </receiver> <!-- Needs to be explicitly declared on P+ -->
+618        <uses-library
+618-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Indian\.gradle\caches\transforms-3\920b2e7c6819174ad9c308e7f7c0e1f0\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+619            android:name="org.apache.http.legacy"
+619-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Indian\.gradle\caches\transforms-3\920b2e7c6819174ad9c308e7f7c0e1f0\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+620            android:required="false" />
+620-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Indian\.gradle\caches\transforms-3\920b2e7c6819174ad9c308e7f7c0e1f0\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+621
+622        <activity
+622-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Indian\.gradle\caches\transforms-3\d169fdc7da323da0b23045a72603d10d\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+623            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+623-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Indian\.gradle\caches\transforms-3\d169fdc7da323da0b23045a72603d10d\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+624            android:exported="false"
+624-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Indian\.gradle\caches\transforms-3\d169fdc7da323da0b23045a72603d10d\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+625            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+625-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Indian\.gradle\caches\transforms-3\d169fdc7da323da0b23045a72603d10d\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+626
+627        <meta-data
+627-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Indian\.gradle\caches\transforms-3\b44fc7389a4e7a55e19783aa6bd3e386\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+628            android:name="com.google.android.gms.version"
+628-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Indian\.gradle\caches\transforms-3\b44fc7389a4e7a55e19783aa6bd3e386\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+629            android:value="@integer/google_play_services_version" />
+629-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Indian\.gradle\caches\transforms-3\b44fc7389a4e7a55e19783aa6bd3e386\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+630
+631        <uses-library
+631-->[androidx.window:window:1.0.0-beta04] C:\Users\Indian\.gradle\caches\transforms-3\e10d5d5e004bbf43337c9622ab90095b\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+632            android:name="androidx.window.extensions"
+632-->[androidx.window:window:1.0.0-beta04] C:\Users\Indian\.gradle\caches\transforms-3\e10d5d5e004bbf43337c9622ab90095b\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+633            android:required="false" />
+633-->[androidx.window:window:1.0.0-beta04] C:\Users\Indian\.gradle\caches\transforms-3\e10d5d5e004bbf43337c9622ab90095b\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+634        <uses-library
+634-->[androidx.window:window:1.0.0-beta04] C:\Users\Indian\.gradle\caches\transforms-3\e10d5d5e004bbf43337c9622ab90095b\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+635            android:name="androidx.window.sidecar"
+635-->[androidx.window:window:1.0.0-beta04] C:\Users\Indian\.gradle\caches\transforms-3\e10d5d5e004bbf43337c9622ab90095b\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+636            android:required="false" />
+636-->[androidx.window:window:1.0.0-beta04] C:\Users\Indian\.gradle\caches\transforms-3\e10d5d5e004bbf43337c9622ab90095b\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+637
+638        <service
+638-->[androidx.room:room-runtime:2.2.5] C:\Users\Indian\.gradle\caches\transforms-3\268c5a15b9d0d814d009b5ab17c27e38\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+639            android:name="androidx.room.MultiInstanceInvalidationService"
+639-->[androidx.room:room-runtime:2.2.5] C:\Users\Indian\.gradle\caches\transforms-3\268c5a15b9d0d814d009b5ab17c27e38\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+640            android:directBootAware="true"
+640-->[androidx.room:room-runtime:2.2.5] C:\Users\Indian\.gradle\caches\transforms-3\268c5a15b9d0d814d009b5ab17c27e38\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+641            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+641-->[androidx.room:room-runtime:2.2.5] C:\Users\Indian\.gradle\caches\transforms-3\268c5a15b9d0d814d009b5ab17c27e38\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+642        <activity
+642-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:5-271
+643            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+643-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:15-102
+644            android:enabled="false"
+644-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:103-126
+645            android:exported="false"
+645-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:127-151
+646            android:launchMode="singleInstance"
+646-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:204-239
+647            android:process=":playcore_missing_splits_activity"
+647-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:152-203
+648            android:stateNotNeeded="true" />
+648-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:240-269
+649        <activity
+649-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:5-226
+650            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+650-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:15-95
+651            android:enabled="false"
+651-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:96-119
+652            android:exported="false"
+652-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:120-144
+653            android:stateNotNeeded="true"
+653-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:145-174
+654            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+654-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:175-224
+655        <service
+655-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:16:5-18:15
+656            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+656-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:16:14-95
+657            android:enabled="false"
+657-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:16:96-119
+658            android:exported="true" >
+658-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:16:120-143
+659            <meta-data
+659-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:17:7-108
+660                android:name="com.google.android.play.core.assetpacks.versionCode"
+660-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:17:18-84
+661                android:value="11000" />
+661-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:17:85-106
+662        </service>
+663        <service
+663-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:19:5-147
+664            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+664-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:19:14-96
+665            android:enabled="false"
+665-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:19:97-120
+666            android:exported="false" />
+666-->[com.google.android.play:core:1.10.0] C:\Users\Indian\.gradle\caches\transforms-3\4bdfbbf4527eccbc5afac8ae922d089a\transformed\jetified-core-1.10.0\AndroidManifest.xml:19:121-145
+667    </application>
+668
+669</manifest>
